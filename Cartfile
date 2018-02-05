@@ -1,6 +1,0 @@
-github "Swinject/Swinject" ~> 2.0
-github "ReactiveX/RxSwift" ~> 4.0
-github "RxSwiftCommunity/RxDataSources" ~> 3.0
-github "Moya/Moya" ~> 10.0
-github "pinterest/PINRemoteImage"
-github "RxSwiftCommunity/RxWebKit"
