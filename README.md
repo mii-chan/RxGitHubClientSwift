@@ -5,7 +5,7 @@ This is a sample iOS project of MVVM architecture.
 
 iPhone X
 
-![Screenshot iPhone X](https://github.com/mii-chan/RxGitHubClientSwift/blob/media/screenshot-iPhoneX.png)
+<img alt="Screenshot iPhone X" src="https://github.com/mii-chan/RxGitHubClientSwift/blob/media/screenshot-iPhoneX.png" width="50%" height="auto">
 
 iPad Pro (10.5-inch)
 
