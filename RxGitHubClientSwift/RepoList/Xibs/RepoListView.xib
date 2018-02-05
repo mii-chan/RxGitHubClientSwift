@@ -29,7 +29,7 @@
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="U9u-hc-O8F">
                     <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                     <subviews>
-                        <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="jnu-yA-WEL">
+                        <searchBar contentMode="redraw" placeholder="keyword or @userId" translatesAutoresizingMaskIntoConstraints="NO" id="jnu-yA-WEL">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="60" id="QE9-Zb-dzs"/>
