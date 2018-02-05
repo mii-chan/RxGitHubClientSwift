@@ -3,6 +3,15 @@
 ## About
 This is a sample iOS project of MVVM architecture.
 
+iPhone X
+
+![Screenshot iPhone X](https://github.com/mii-chan/RxGitHubClientSwift/blob/media/screenshot-iPhoneX.png)
+
+iPad Pro (10.5-inch)
+
+![Screenshot iPad Pro 10.5-inch](https://github.com/mii-chan/RxGitHubClientSwift/blob/media/screenshot-iPad-Pro-10.5-inch.png)
+
+
 ## Requirements
 * iOS 11.0+
 * Xcode 9.0+
