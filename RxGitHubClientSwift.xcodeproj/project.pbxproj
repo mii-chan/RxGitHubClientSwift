@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C112380F2039CD5C002D8C53 /* WKWebView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C112380E2039CD5C002D8C53 /* WKWebView+Rx.swift */; };
 		C1AA219920277BB4006DFD78 /* RepositoryCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1AA219820277BB4006DFD78 /* RepositoryCardCell.xib */; };
 		C1AA219B20277BC6006DFD78 /* RepositoryCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA219A20277BC6006DFD78 /* RepositoryCardCell.swift */; };
 		C1BC987C2027464800B6D024 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC987B2027464800B6D024 /* AppDelegate.swift */; };
@@ -26,7 +27,6 @@
 		C1E08629202755EC00B97A05 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E08628202755EC00B97A05 /* Swinject.framework */; };
 		C1E0862B2027562000B97A05 /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E0862A2027562000B97A05 /* PINCache.framework */; };
 		C1E0862D2027566000B97A05 /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E0862C2027566000B97A05 /* PINRemoteImage.framework */; };
-		C1E0862F202756B700B97A05 /* RxWebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E0862E202756B700B97A05 /* RxWebKit.framework */; };
 		C1E0863D2027612100B97A05 /* RepoListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E0863C2027612100B97A05 /* RepoListAssembly.swift */; };
 		C1E0863F2027614700B97A05 /* NetworkingAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E0863E2027614700B97A05 /* NetworkingAssembly.swift */; };
 		C1E086412027616500B97A05 /* RepoDetailAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E086402027616500B97A05 /* RepoDetailAssembly.swift */; };
@@ -88,6 +88,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C112380E2039CD5C002D8C53 /* WKWebView+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebView+Rx.swift"; sourceTree = "<group>"; };
 		C1AA219820277BB4006DFD78 /* RepositoryCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepositoryCardCell.xib; sourceTree = "<group>"; };
 		C1AA219A20277BC6006DFD78 /* RepositoryCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryCardCell.swift; sourceTree = "<group>"; };
 		C1BC98782027464800B6D024 /* RxGitHubClientSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxGitHubClientSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,7 +163,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1E0862F202756B700B97A05 /* RxWebKit.framework in Frameworks */,
 				C1E0862D2027566000B97A05 /* PINRemoteImage.framework in Frameworks */,
 				C1E0862B2027562000B97A05 /* PINCache.framework in Frameworks */,
 				C1E08629202755EC00B97A05 /* Swinject.framework in Frameworks */,
@@ -479,6 +479,7 @@
 				C1E0868820276A2F00B97A05 /* UIBarButtonItem+Rx.swift */,
 				C1E0868A20276A4600B97A05 /* UIProgressView+Rx.swift */,
 				C1E0869020276AA600B97A05 /* Single+Log.swift */,
+				C112380E2039CD5C002D8C53 /* WKWebView+Rx.swift */,
 			);
 			path = Rx;
 			sourceTree = "<group>";
@@ -651,7 +652,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/PINRemoteImage.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/PINCache.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxWebKit.framework",
 			);
 			name = Carthage;
 			outputPaths = (
@@ -668,6 +668,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1E086612027644E00B97A05 /* GitHub+Repository.swift in Sources */,
+				C112380F2039CD5C002D8C53 /* WKWebView+Rx.swift in Sources */,
 				C1E0869320276ABC00B97A05 /* String+Prefix.swift in Sources */,
 				C1E0868F20276A8900B97A05 /* UISeachBar+Content.swift in Sources */,
 				C1E086802027698D00B97A05 /* RepoDetailViewController.swift in Sources */,
