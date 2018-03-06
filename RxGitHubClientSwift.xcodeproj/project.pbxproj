@@ -114,7 +114,6 @@
 		C1E08628202755EC00B97A05 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
 		C1E0862A2027562000B97A05 /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = Carthage/Build/iOS/PINCache.framework; sourceTree = "<group>"; };
 		C1E0862C2027566000B97A05 /* PINRemoteImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINRemoteImage.framework; path = Carthage/Build/iOS/PINRemoteImage.framework; sourceTree = "<group>"; };
-		C1E0862E202756B700B97A05 /* RxWebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxWebKit.framework; path = Carthage/Build/iOS/RxWebKit.framework; sourceTree = "<group>"; };
 		C1E0863C2027612100B97A05 /* RepoListAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListAssembly.swift; sourceTree = "<group>"; };
 		C1E0863E2027614700B97A05 /* NetworkingAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingAssembly.swift; sourceTree = "<group>"; };
 		C1E086402027616500B97A05 /* RepoDetailAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailAssembly.swift; sourceTree = "<group>"; };
@@ -265,7 +264,6 @@
 		C1E08617202754DC00B97A05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C1E0862E202756B700B97A05 /* RxWebKit.framework */,
 				C1E0862C2027566000B97A05 /* PINRemoteImage.framework */,
 				C1E0862A2027562000B97A05 /* PINCache.framework */,
 				C1E08628202755EC00B97A05 /* Swinject.framework */,
