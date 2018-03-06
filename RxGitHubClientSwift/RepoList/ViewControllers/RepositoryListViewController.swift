@@ -79,11 +79,6 @@ class RepoListViewController: UIViewController {
         
         // MARK: - Loading
         self.viewModel.outputs.isLoading
-            .map { !$0 }
-            .drive(self.rootView.activityIndicatorOutlet.rx.isHidden)
-            .disposed(by: disposeBag)
-        
-        self.viewModel.outputs.isLoading
             .drive(self.rootView.activityIndicatorOutlet.rx.isAnimating)
             .disposed(by: disposeBag)
         
