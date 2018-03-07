@@ -14,7 +14,7 @@ final class NetworkingAssembly: Assembly {
             return MoyaProvider<AnyGitHubTarget>()
             }.inObjectScope(.container)
         
-        container.register(GitHubService.self) { resolver in
+        container.register(GitHubServiceType.self) { resolver in
             let provider = resolver.resolve(MoyaProvider<AnyGitHubTarget>.self)!
             return GitHubService(provider: provider)
             }.inObjectScope(.container)

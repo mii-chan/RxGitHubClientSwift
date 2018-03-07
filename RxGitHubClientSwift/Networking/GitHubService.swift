@@ -10,7 +10,9 @@ import RxSwift
 import Moya
 import RxMoya
 
-class GitHubService {
+protocol GitHubServiceType: GitHubRepoServiceType, GitHubUserServiceType {}
+
+class GitHubService: GitHubServiceType {
     
     private let provider: MoyaProvider<AnyGitHubTarget>
     

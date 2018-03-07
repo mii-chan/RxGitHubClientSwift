@@ -10,7 +10,7 @@ import Swinject
 final class RepoListAssembly: Assembly {
     func assemble(container: Container) {
         container.register(RepoRepositoryType.self) { resolver in
-            let gitHubService = resolver.resolve(GitHubService.self)!
+            let gitHubService = resolver.resolve(GitHubServiceType.self)!
             return RepoRepository(gitHubService: gitHubService)
         }
         

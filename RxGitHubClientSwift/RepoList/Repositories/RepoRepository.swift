@@ -34,11 +34,11 @@ class RepoRepository: RepoRepositoryType {
     private let selectedRepoDidChangeRelay: BehaviorRelay<URL?> = BehaviorRelay(value: nil)
     private let isUrlValidRelay: BehaviorRelay<Bool> = BehaviorRelay(value: true)
     
-    private let gitHubService: GitHubService
+    private let gitHubService: GitHubServiceType
     
     private let disposeBag = DisposeBag()
     
-    init(gitHubService: GitHubService) {
+    init(gitHubService: GitHubServiceType) {
         self.gitHubService = gitHubService
         
         self.isOnline = self.isOnlineRelay.asDriver()
